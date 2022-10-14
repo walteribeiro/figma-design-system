@@ -8,6 +8,11 @@ export default {
     children: 'Hello, world!'
   },
   argTypes: {
+    asChild: {
+      table: {
+        disable: true,
+      }
+    },
     size: {
       defaultValue: 'md',
       description: 'The size of the text',      
