@@ -4,11 +4,15 @@
 
 ## About
 
-_Short description of the project._
+Design system implemented from a Figma spec with React, Vite, Tailwind CSS and Radix UI primitives. Components are documented in Storybook (with the a11y addon) alongside a sample Sign In page.
 
 ## Tech Stack
 
 - TypeScript
+- React
+- Radix UI
+- Storybook
+- axios
 
 ## Getting Started
 
@@ -16,7 +20,7 @@ _Short description of the project._
 git clone https://github.com/walteribeiro/figma-design-system.git
 cd figma-design-system
 npm install
-npm start
+npm run dev
 ```
 
 ## Author
